@@ -1,6 +1,6 @@
 # Google Software Product Sprint
 
-This repo contains the projects Adrian Salgado Lopez's portfolio and SPS.
+This repo contains Adrian Salgado Lopez's portfolio and SPS projects.
 
 To get started:
 
