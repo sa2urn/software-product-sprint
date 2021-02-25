@@ -17,12 +17,12 @@
  */
 function addRandomFact() {
   const facts =
-      ['I live in LA', 'Pronouns: he/him/his!', 'I attend CSULA', 'My favorite artist is King Krule'];
+      ['I live in LA.', 'Pronouns are he/him/his!', 'I attend CSULA.', 'My favorite artist is King Krule.'];
 
   // Pick a random greeting.
   const fact = facts[Math.floor(Math.random() * facts.length)];
-  console.log(fact);
+
   // Add it to the page.
-  const factContainer = document.getElementById('greeting-container');
-  factContainer.innerText = greeting;
+  const factContainer = document.getElementById('fact-container');
+  factContainer.innerText = fact;
 }
