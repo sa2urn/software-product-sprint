@@ -6,18 +6,51 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
   </head>
-  <body>
-    <div id="content">
-      <h1>Adrian Salgado Lopez's Portfolio</h1>
-      <img id="avatar-img" src= "/images/titan.png"/>
-      <p>Hello, my name is Adrian Salgado Lopez, my pronouns are he/him/his. I reside in Los Angeles and a student at California State University, Los Angeles.
-          I am a 2nd year, pursuing a bachelor's degree in Computer Science. I love learning and exploring all the possible careers in Computer Science, it excites me that I will
-          be pursuing a career of my own. Apart from coding, I like to listen to music, watching Anime, and playing PC games.
-      </p>
-      <p>Click <a href="/hello">here</a> to see content created by server code.</p>
-      <p>Click here to get a random Fact about myself:</p>
-      <button onclick="addRandomFact()">Hello</button>
-      <div id="fact-container"></div>
+  <body id="body">
+    <div id="header">
+      <h1 id="header-title">Adrian Salgado Lopez's Portfolio</h1>
+      <span>
+        <a href="https://www.linkedin.com/in/adriansalgadocsula/"><img id="header-img" src="/images/linkedIn.gif" alt="LinkedIn"></a>
+        <a href="https://github.com/sa2urn"><img id="header-img" src="/images/github.png" alt="GitHub"></a>    
+      </span>
     </div>
+
+    <hr>
+   
+    <div id="bio">
+      <div id="bio-img-holder">
+        <img id="bio-img" src= "/images/Lucy.jpg"/>
+        <p>My pet, her name is Lucy.</p>
+      </div> 
+      <div id="bio-text-holder">
+        <h2>Bio</h2>      
+        <p>
+          Hello, my name is Adrian Salgado Lopez, my pronouns are he/him/his. I reside in Los Angeles and a student at California State University, Los Angeles.
+          I am a 2nd year, pursuing a bachelor's degree in Computer Science. I love learning and exploring all the possible careers in Computer Science, it excites me that I will
+          be pursuing a career of my own. Some field interests that I have are Computer Vision, Software development, Cybersercurity, and UI development. 
+        </p>   
+      </div>
+      <!--<p>Click here to get a random Fact about myself:</p>
+      <button onclick="addRandomFact()">Hello</button>
+      <div id="fact-container"></div>-->
+    </div>
+    
+    <hr>
+
+    <div>
+      <h2>Projects</h2>
+      <h3>Discord Music Bot</h3>
+      <img src="images/DiscordMusicBot.gif" alt="Gif not working"/>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <h3>Object Detection: Stop Sign</h3>
+      <img src="/images/ObjectDetectStopSign.gif" alt="Gif not working"/>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+    </div>
+    <hr>
+
   </body>
 </html>
