@@ -2,55 +2,97 @@
   background-image: url("/images/space.jpg");
   background-color: rgb(0, 0, 0, 0.6);
   background-blend-mode: multiply;
-}
-#header {
-  text-align: center;
+  font-family: Verdana, sans-serif;
+  color: white;
 }
 
+
+#header {
+  text-align: center; 
+  height: 800px;
+  width: auto;
+  /* background-color: cornflowerblue; */
+}
 #header-title {
-  color: white;
-  font-size: 45px;
+  padding-top: 100px;
+  font-size: 50px;
+   /* background-color: chartreuse; */
 }
 #header-img {
-  width: 4%;
   height: 4%;
+  width: 4%;
+  user-select: none;
 }
-
-#bio {  
-  width: 800px;
+#planet-left {
+  width: 10%;
+  height: 10%;
+  padding-top: 50px;
+  padding-left: 75px;
+  user-select: none;
+}
+#planet-right {
+  width: 10%;
+  height: 10%;
+  padding-top: 50px;
+  margin-left: 1650px;
+  user-select: none;
+}
+#section-title {
+  font-size: 40px;
+  text-align: center;
+  padding-right: 50px;
+  margin-top: 75;
+  margin-bottom: 60px;
+}
+#section-bio {  
+  width: 900px;
   height: 500px;
-  margin-top: 100px;  
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0px auto 180px auto;
   display: flex;
-  color: white;
-  border: thistle;
 }
-
 #bio-img-holder {
   text-align: center;
-  width: 60%;
+  width: 40%;  
   margin-right: 100px;
-  background: aquamarine;
-  border: 3px solid thistle;
 }
-
 #bio-img{
-  margin-top: 50px;
-  height: 60%;
+  margin-top: 20px;
+  height: 70%;
   width: auto;
-  border: 3px solid blue;
-}
-
-#bio-text-holder {
-  margin-top: 50px;
-  background: blue;
-  flex-grow: 1;
-  border: 3px solid thistle;
+  user-select: none;
 }
 #bio-text {
-  color: white;
-  border: 3px solid thistle;
+  width: 500px;
+  font-size: 20px;
+}
+#section-project {  
+  width: 1200px;
+  height: 500px;
+  margin: 0px auto 180px auto;
+  display: flex;
+}
+#project-img-holder {
+  text-align: center;
+  width: 50%;  
+  margin-right: 150px;
+}
+#project-img {
+  margin-top: 60px;
+  height: 60%;
+  width: auto;
+  border-radius: 40%;
+  user-select: none;
+}
+#project-github-img {
+  height: 20%;
+  width: 20%; 
+  padding-left: 175px;
+  user-select: none;
+}
+#project-text {
+  width: 600;
+  font-size: 20px;
+  padding-top: 100px;
 }
 
 #fact-container {
