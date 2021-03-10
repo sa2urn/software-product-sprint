@@ -57,12 +57,14 @@
   padding-right: 50px;
   margin-top: 75;
   margin-bottom: 60px;
+  background-color: black;
 }
 #section-bio {  
   width: 900px;
   height: 450px;
   margin: 0px auto 180px auto;
   display: flex;
+  background-color: black;
 } 
 #bio-img-holder {
   text-align: center;
@@ -84,9 +86,10 @@
   height: 500px;
   margin: 0px auto 180px auto;
   display: flex;
+  background-color: black;
 }
 #project-title {
-    font-size: 30px;
+  font-size: 30px;
 }
 #project-img-holder {
   text-align: center;
