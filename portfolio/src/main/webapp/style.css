@@ -13,8 +13,8 @@
   width: auto;
 }
 #header-title {
-  padding-top: 100px;
-  font-size: 50px;
+  padding-top: 50px;
+  font-size: 60px;
 }
 #header-img {
   height: 4%;
@@ -52,7 +52,7 @@
   user-select: none;
 }
 #section-title {
-  font-size: 40px;
+  font-size: 45px;
   text-align: center;
   padding-right: 50px;
   margin-top: 75;
@@ -84,6 +84,9 @@
   height: 500px;
   margin: 0px auto 180px auto;
   display: flex;
+}
+#project-title {
+    font-size: 30px;
 }
 #project-img-holder {
   text-align: center;
