@@ -113,3 +113,58 @@
   font-size: 20px;
   text-align: center;
 }
+
+#contact-section {
+  background-color: black;
+  text-align: left;
+  margin:100px 20%;
+  padding-left: 10%;
+}
+#header-contact {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+#name-box {
+  width: 80%;
+  resize: none;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  font-size: 15px;
+  color: white;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+}
+#email-box {
+  width: 80%;
+  resize: none; 
+  margin-bottom: 20px;
+  padding: 5px 10px;  
+  font-size: 15px;
+  color: white;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+}
+#message-box {
+  width: 80%;
+  margin-bottom: 20px;
+  font-size: 15px;
+  padding: 5px 10px;  
+  font-size: 15px;
+  color: white;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+}
+#submit-button {
+  border: 1px solid white;
+  font-size: 15px;
+  text-align: center;
+  padding: 15px 20px;
+  background-color: transparent;
+  color: white;
+}
+#submit-button:hover {
+  border-radius: 6px;
+}
