@@ -26,7 +26,7 @@ public class GreetingsServlet extends HttpServlet {
 
   @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-    String json = convertToJson((int) (Math.random() * ((greetings.size() - 1) - 0 + 1) + 0));
+    String json = convertToJson((int) (Math.random() * (greetings.size() - 0) + 0));
     
     response.setContentType("application/json; charset=UTF-8");
     response.getWriter().println(json);
