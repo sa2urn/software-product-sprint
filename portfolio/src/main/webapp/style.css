@@ -24,7 +24,7 @@
 #planet-left {
   width: 10%;
   height: 10%;
-  padding-top: 50px;
+  padding-top: 25px;
   padding-left: 75px;
   user-select: none;
 }
@@ -91,6 +91,11 @@
   width: 600;
   font-size: 20px;
   padding-top: 100px;
+}
+
+#planet-servlet-text{
+  font-size: 20px;
+  text-align: center;
 }
 
 #fact-container {
