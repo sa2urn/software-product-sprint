@@ -26,23 +26,16 @@ public class GreetingsServlet extends HttpServlet {
 
   @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-    String json = convertToJson();
+    String json = convertToJson((int) (Math.random() * ((greetings.size() - 1) - 0 + 1) + 0));
     
     response.setContentType("application/json; charset=UTF-8");
     response.getWriter().println(json);
   }
 
-  private String convertToJson(){
+  private String convertToJson(int greetingChosen){
     String json = "{";
-    json += "\"size \": " + "\"" + String.valueOf(greetings.size()) + "\", ";
-
-    for(int indx = 0; indx < greetings.size(); indx++){
-        json+= "\"greeting" + indx + "\": ";
-        json+= "\"" + greetings.get(indx) +"\"";
-
-        if(indx != (greetings.size() - 1)) json+= ", ";
-    }
-
+    json+= "\"greeting\": ";
+    json+= "\"" + greetings.get(greetingChosen) +"\"";
     json+="}";
     return json;
   }
