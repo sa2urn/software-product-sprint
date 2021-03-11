@@ -21,10 +21,26 @@
   width: 4%;
   user-select: none;
 }
+#greeting-button {
+  cursor: pointer;
+  border: 1px solid white;
+  font-size: 16px;
+  text-align: center;
+  padding: 15px 20px;
+  margin-top: 100px;
+  background-color: black;
+  color: white;
+}
+#greeting-button:hover {
+  border-radius: 6px;
+}
+#greeting-container {
+  font-size: 25px;
+  padding-top: 40px;
+}
 #planet-left {
   width: 10%;
   height: 10%;
-  padding-top: 25px;
   padding-left: 75px;
   user-select: none;
 }
@@ -44,10 +60,10 @@
 }
 #section-bio {  
   width: 900px;
-  height: 500px;
+  height: 450px;
   margin: 0px auto 180px auto;
   display: flex;
-}
+} 
 #bio-img-holder {
   text-align: center;
   width: 40%;  
@@ -96,8 +112,4 @@
 #planet-servlet-text{
   font-size: 20px;
   text-align: center;
-}
-
-#fact-container {
-  margin-top: 20px;
 }
