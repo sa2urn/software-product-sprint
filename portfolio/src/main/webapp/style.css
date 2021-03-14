@@ -115,6 +115,21 @@
   padding-top: 100px;
 }
 
+#map-section {
+  margin: 100px 30%;
+}
+#map-title {
+  color: white;
+  font-size: 45px;
+  text-align: center;
+}
+#map {
+  border: thin solid black;
+  height: 500px;
+  width: 500px;
+  margin: 10px 17%;
+}
+
 #planet-servlet-text{
   font-size: 20px;
   text-align: center;
