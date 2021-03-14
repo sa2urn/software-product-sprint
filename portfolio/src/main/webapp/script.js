@@ -5,3 +5,9 @@ async function showGreetings(button) {
   
   greetingContainer.innerText = greetings.greeting;
 }
+
+function createMap(){
+  const map = new google.maps.Map(
+    document.getElementById('map'),
+    {center: {lat: 34.052235, lng: -118.243683}, zoom: 8});
+}
